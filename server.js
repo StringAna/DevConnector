@@ -1,4 +1,5 @@
 const express = require('express');
+//gets the mongoDB connection from db.js
 const connectDB = require('./config/db');
 const app = express();
 //connect db
